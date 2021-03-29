@@ -1,0 +1,149 @@
+body {
+  		background-image: linear-gradient(-180deg,#191970,#4876FF);
+		margin: 3;
+		}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  font-family: myFirstFont;
+	font-size: 24px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: myFirstFont;
+	font-size: 24px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  font-family: myFirstFont;
+	font-size: 24px;
+}
+
+.topnav a.active {
+  background-color: #DF2648;
+  color: white;
+  font-family: myFirstFont;
+	font-size: 24px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: myFirstFont;
+	font-size: 24px;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+  font-family: myFirstFont;
+	font-size: 24px;
+}
+
+li:last-child {
+  border-right: none;
+  font-family: myFirstFont;
+	font-size: 24px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: myFirstFont;
+	font-size: 24px;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+  font-family: myFirstFont;
+	font-size: 24px;
+}
+
+.active {
+  background-color: #483D8B;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(CSChatThai.woff);
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+b1{
+	font-family: myFirstFont;
+	font-size: 18px;
+}
+
+b2{
+	font-family: myFirstFont;
+	font-size: 24px;
+}
+
+input[type="text"] {
+	font-family: myFirstFont;
+	font-size: 20px;
+}
+
+input[type="password"] {
+	font-family: myFirstFont;
+	font-size: 20px;
+}
+
+input[type="submit"] {
+	font-family: myFirstFont;
+	font-size: 18px;
+}
+
+h1{
+	font-family: myFirstFont;
+	font-size: 36px;
+}
+
+th{
+	font-family: myFirstFont;
+	font-size: 24px;
+}
+
+td{
+	font-family: myFirstFont;
+	font-size: 18px;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #CD5555;
+  color: white;
+}
